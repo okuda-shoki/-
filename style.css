@@ -212,7 +212,7 @@ select {
 
 #eyecatch {
   height: 600px;
-  background: url(../20210215_okuda/img/img/eyecatch.jpg) no-repeat;
+  background: url(./img/img/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -265,7 +265,7 @@ select {
 .text00 {
   position: absolute;
   bottom: 0px;
-  left: 1100px;
+  right: 0px;
   background-color: black;
   height: 53px;
   width: 250px;
@@ -293,25 +293,25 @@ select {
 }
 .about-center {
   line-height: 24px;
+  position: relative;
+  top: 200px;
+  right: 250px;
 }
 
 .about-center h1 {
   font-size: 30px;
   font-weight: bold;
   color: white;
-  position: relative;
-  top: 170px;
-  right: 300px;
 }
 
 .about-center p {
   font-size: 14px;
   font-weight: bold;
   text-align: left;
+  line-height: 20px;
+  padding-top: 30px;
   color: white;
-  position: relative;
-  top: 200px;
-  right: 300px;
+ 
 }
 .about-center button {
   font-size: 15px;
@@ -319,9 +319,6 @@ select {
   text-align: center;
   background-color: white;
   color: black;
-  position: relative;
-  top: 220px;
-  right: 300px;
 }
 
 .about-right img {
@@ -380,11 +377,13 @@ select {
   left: 400px;
 }
 
+.section-right {
+  text-align: right;
+}
+
 .section-right img {
   height: 450px;
   width: 700px;
-  position: relative;
-  left: 650px;
 }
 
 .service-right {
@@ -464,7 +463,7 @@ select {
 
 .recruit-wrap {
   position: relative;
-  left: 750px;
+  left: 770px;
   margin-top: 100px;
   background-size: cover;
 }
@@ -486,7 +485,11 @@ select {
   left: 300px;
 }
 
-.recruit-wrap img {
+.recruit{
+  text-align: right;
+}
+
+.recruit img {
   height: 200px;
   width: 600px;
 }
@@ -521,7 +524,7 @@ select {
 }
 
 #contact {
-  background: url(../20210215_okuda/img/img/contact-bg.jpg) no-repeat;
+  background: url(./img/img/contact-bg.jpg) no-repeat;
   background-size: cover;
   height: 550px;
   display: flex;
