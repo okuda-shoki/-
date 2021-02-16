@@ -238,9 +238,13 @@ select {
 
 .text0 {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   background-color: white;
   background-size: cover;
 }
+
 
 .text0 h6 {
   font-style: normal;
@@ -257,18 +261,16 @@ select {
 }
 
 
-.text00 {
-  background-color: black;
-  height: 53px;
-  width: 250px;
-}
-
-.text00 h3 {
+.text0 h3 {
+  transform: translate(-50%,-50%);
   font-size: 15px;
   font-weight: normal;
   color: white;
   padding-top: 22px;
   text-align: center;
+  background-color: black;
+  height: 53px;
+  width: 250px;
 }
 
 #about {
